@@ -1,6 +1,6 @@
 # Social_Media_Analytics-
 
-> **Define the problem. What is the input? What is the output?**
+>  **Define the problem. What is the input? What is the output?**
 
 - The goal of the problem is to predict which fake news or not through analysis the title text. The input is the text in english and The data is raw (contains various forms of words) which we will apply preprocessing on them . The output is the predicted column called label, which is binary 0 or 1 as 0 means not fake and 1 means fake. The goal is to estimate the news is fake or not.
 
