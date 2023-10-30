@@ -4,19 +4,11 @@
 
 - The goal of the problem is to predict which fake news or not through analysis the title text. The input is the text in english and The data is raw (contains various forms of words) which we will apply preprocessing on them . The output is the predicted column called label, which is binary 0 or 1 as 0 means not fake and 1 means fake. The goal is to estimate the news is fake or not.
 
->  **What data mining function is required?**
-- The data mining function required is classification since the goal is to predict the fake news depend on its title.
-  
-> **What could be the challenges? 🤯**
+> Kaggle Link: https://www.kaggle.com/competitions/cisc-873-dm-w23-a3/overview
 
-- The challenges could include dealing with noisy data, missing values, and irrelevant or unnecessary words.
-Also, the text included in the dataset may not be sufficient to accurately predict the news is fake or not, which may require additional data sources or feature engineering.
+## Reddit Fake Post Detection (by Looking Only at the Title)
 
-> **What is the impact?**
+![Uploading image.png…](https://www.googleapis.com/download/storage/v1/b/kaggle-user-content/o/inbox%2F4409738%2F4f5fda2da319a6815c68c937f7474d4c%2Fmememe_3292829e1a7b6e4f95de73cc5e318807-1.jpg?generation=1604889270371012&alt=media)
 
-- The impact of accurately predicting status of news is that it can help people to know if if this news is fake or not and we can read and trust it.
-  
-> **What is an ideal solution? 🤔**
 
-- My experiment tries to reach to the highest accuracy to predict correct and gives the best benefits to people, in general, an ideal solution would be to develop a machine learning model that accurately predicts
-the matching based on the available text, while also being able to handle missing or noisy data. The model should also be easily interpretable, so that businesses can understand the factors that are most important for predicting product ratings. Additionally, the model should be regularly updated with new data to ensure its accuracy over time and develope it regulary.
+False information on the Internet has caused many social problems due to the raise of social network and its role in different domains such as politics. In this assignment, we are going to predict if a specific reddit post is fake news or not, by looking at its title. The data is raw (contains various forms of words) so it is up to you on what text preprocessing techniques to be applied.
